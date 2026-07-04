@@ -6,10 +6,15 @@ This project presents a Machine Learning and Natural Language Processing (NLP) b
 The objective is to help students, educational institutions, and researchers identify potentially misleading reviews and improve the reliability of online review platforms.
 
 🚀 Project Objectives
+
 Detect fake educational reviews using Machine Learning.
+
 Perform sentiment analysis on student reviews.
+
 Build an interactive Power BI dashboard for visualization.
+
 Demonstrate a complete end-to-end data science workflow.
+
 📂 Project Workflow
 Data Collection
         │
@@ -34,13 +39,17 @@ Sentiment Analysis (VADER)
         │
         ▼
 Power BI Dashboard
+
 📊 Dataset
 
 The project uses two types of datasets.
 
 Training Dataset
+
 Fake Reviews Dataset (Kaggle)
+
 Yelp Fake Reviews
+
 HuggingFace Fake Review Dataset
 
 These datasets were filtered using education-related keywords to create an education-focused training dataset.
@@ -67,12 +76,17 @@ Pandas
 NumPy
 Visualization
 Microsoft Power BI
+
 📈 Model Performance
+
 Metric	Value
+
 Accuracy	90.84%
 Precision	91%
 Recall	91%
 F1 Score	91%
+
+
 📊 Dashboard Insights
 
 The Power BI dashboard provides interactive visualizations including:
@@ -81,7 +95,7 @@ Total Reviews
 Fake vs Genuine Reviews
 Sentiment Distribution
 
-epository Structure
+Repository Structure
 ├── Fake reviews.pbix
 ├── Fake-Review-Model.ipynb
 ├── Final Project Report.pdf
@@ -90,12 +104,17 @@ epository Structure
 ├── institutes.csv
 ├── fake reviews dataset.csv
 ├── README.md
+
+
 📌 Results
+
 Total Reviews Analysed: 356
 Fake Reviews Detected: 19
 Genuine Reviews: 337
 Average Rating: 3.31
 Model Accuracy: 90.84%
+
+
 📖 Project Report
 
 The repository includes:
@@ -105,6 +124,8 @@ PowerPoint Presentation
 Jupyter Notebook
 Power BI Dashboard
 Processed Dataset
+
+
 ⚠️ Disclaimer
 
 This project was developed solely for academic and research purposes as part of the Master of Science (Data Science) program.
